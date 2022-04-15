@@ -1,0 +1,56 @@
+<!--
+정보가 많아짐에 따라 정리정돈을 위해 구조라는 게 필요.
+구조 만드는 법을 살펴보자.
+-->
+
+<!--
+<!DOCTYPE html> 이 웹페이지가 HTML로 만들어졌다는 것을 표현하기 위함.
+<body> 본문은 이 태그로 묶기로 했다.
+<head> 본문을 설명하는 정보들은 이 태그로 묶기로 했다.
+ -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--
+    <title> 웹페이지의 제목을 설정한다.
+    검색엔진이 웹페이지 분석 시 가장 중요한 태그.
+    -->
+    <title>HAM's WEB</title>
+    <!--
+    <style> 안의 내용이 CSS라는 걸 알려줌
+    -->
+    <style>
+      a {   // 이 웹페이지의 모든 <a> 태그에 대해서
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <!--
+      링크
+      anchor(닻)의 약자
+      herf: HyperText Reference의 약자
+      target="_blank" 링크 클릭시 새창에서 띄우기
+      title: 이 링크가 어떤 내용을 담고 있는지 툴팀으로 보여줌(마우스 올려놓으면 뜨는 거)
+      -->
+      <a
+      href="https://www.w3.org/TR/html5/"
+      target="_blank"
+      title="html5 specification">
+        Hypertext Markup Language (HTML)
+      </a>
+      <a
+      href="1.html"
+      title="1.html">
+        내가 만든 웹페이지로 링크 걸기
+      </a>
+    </p>
+  </body>
+</html>
+
+<!-- note
+HTML: HyperText Markup Language
+
+-->
